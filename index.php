@@ -10,7 +10,7 @@
 <body>
     <div class="container mt-4">
         <h2>Formulário CRUD com PHP e Bootstrap</h2>
-        <form method="POST" action="">
+        <form method="POST" action="create.php">
             <div class="form-group">
                 <label for="nome">Nome:</label>
                 <input type="text" class="form-control" id="nome" name="nome" required>
