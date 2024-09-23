@@ -25,6 +25,8 @@
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
+         <h2 class="mt-5">Pessoas Cadastradas</h2>
+        <?php include __DIR__ . '/read.php'; ?>
     </div>
 
     <!-- Bootstrap JS e dependências opcionais para funcionalidades avançadas -->
