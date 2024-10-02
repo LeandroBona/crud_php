@@ -7,7 +7,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     $telefone = $_POST["telefone"];
 
     // inserindo na tabela
-    $sql = "INSERT INTO pessoas (nome, email, telefone) VALUES ('$nome', '$email','$telefone')";
+    $sql = "INSERT INTO usuarios (nome, email, telefone) VALUES ('$nome', '$email','$telefone')";
 
     if($conn->query($sql) === true){
         header("Location: index.php"); //redireciona para a o index se der tudo certo
