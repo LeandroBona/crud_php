@@ -6,7 +6,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {  // Verifica se há registros retornados
     echo '<table class="table table-bordered">';
-    echo '<tr><th>ID</th><th>Nome</th><th>Sobrenome</th><th>Telefone</th><th>Ação</th></tr>';
+    echo '<tr><th>ID</th><th>Nome</th><th>Email</th><th>Telefone</th><th>Ação</th></tr>';
     while ($row = $result->fetch_assoc()) {  // Loop através de cada registro retornado
         echo '<tr>';
         echo '<td>' . $row["id"] . '</td>';
